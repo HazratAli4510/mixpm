@@ -64,6 +64,11 @@
     background-color: #f13c2f;
 }
 
+/* Accodion*/
+.accordion-button:not(.collapsed){
+    color:var(--primary);
+}
+
 /* Ratings */
 .rating i {
     color: rgb(255, 196, 0);
