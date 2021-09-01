@@ -57,8 +57,14 @@
 
 header .logo{
     font-family: 'Alumni Sans';
+    line-height:.8;
 }
-
+header .logo::after{
+    content: 'by MiksVirtual';
+    display: block;
+    font-size: 1.2rem;
+    text-align: end;
+}
 
 /*-------------
  Main Style
