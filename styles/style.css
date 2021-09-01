@@ -16,6 +16,8 @@
 
 
 /* Utility CSS */
+
+
 /* for fonts */
 .font-400 {
     font-weight: 400;
@@ -37,6 +39,11 @@
 .border-2px{
     border: 2px solid transparent;
 }
+.secondary-font{
+    font-family: 'Alumni Sans';
+}
+
+
 /*for Colors */
 .mixpm-text-primary {
     color: var(--primary);
