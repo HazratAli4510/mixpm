@@ -10,7 +10,7 @@
 
 /* COlor Variables */
 :root {
-    --primary: #DA291C;
+    --primary: #00A8E0;
     --secondary: #21A1DA;
 }
 
@@ -87,7 +87,7 @@ header .logo::after{
 
 /* repair button */
 .repair-button:hover {
-    background-color: #f13c2f;
+    background-color: #0D6EFD;
 }
 
 /* Accodion*/
