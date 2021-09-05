@@ -23,7 +23,7 @@
     <header>
         <div class="container">
             <div class=" d-flex justify-content-center justify-content-md-start align-items-center my-2">
-                <h2 class="logo display-4 p-3 rounded-3 my-5">MiksPM</h2>
+                <h2 class="logo display-4 p-3 rounded-3 my-5">MIKsPM</h2>
             </div>
         </div>
     </header>
@@ -31,7 +31,7 @@
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col col-lg-4 d-flex flex-column align-items-center d-lg-block mb-3 mb-lg-0">
                 <div class="greetings">
-                    <h1 class="font-700 display-5 secondary-font">Mix Project Management</h1>
+                    <h1 class="font-700 display-5 secondary-font">MIKs Project Management</h1>
                     <p class="fw-bold mixpm-text-gray text-lg-start text-center">433 Plaza Real, Suite 275, Boca Raton,
                         FL 33432</p>
                     <h1 class="fw-bold mixpm-text-primary text-center text-lg-start">(561) 757-1126</h1>
@@ -58,21 +58,33 @@
                         <hr class="my-4">
                         <div class="row row-cols-1 row-cols-lg-2">
                             <div class="col mt-5 mt-lg-0 order-1 order-lg-0">
-                                <button id="btn-1"
-                                    class="border-2px shadow-none btn btn-active d-flex w-100 align-items-center p-3 rounded-0">
-                                    <i class="fas fa-mobile me-3 fs-5"></i>
-                                    <span class="fs-5 fw-bold mixpm-text-primary">Cell Phone</span>
-                                </button>
-                                <button id="btn-2"
-                                    class="border-2px shadow-none btn d-flex w-100 align-items-center p-3 rounded-0">
-                                    <i class="fas fa-tablet me-3 fs-5"></i>
-                                    <span class="fs-5 mixpm-text-primary fw-bold">Tablet</span>
-                                </button>
-                                <button id="btn-3"
-                                    class="border-2px shadow-none btn d-flex w-100 align-items-center p-3 rounded-0">
-                                    <i class="fas fa-power-off me-3 fs-5"></i>
-                                    <span class="fs-5 mixpm-text-primary fw-bold">Others</span>
-                                </button>
+                                <div class="accordion" id="accordionExampl">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button
+                                                class="accordion-button shadow-none font-regular font-600 mixpm-text-gray"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne"> <i
+                                                    class="far fa-check-circle me-2"></i>
+                                                    Engineering 
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExampl">
+                                            <div class="accordion-body font-regular">
+                                                <ul>
+                                                    <li>Project Scheduling and Integration Management</li>
+                                                    <li>Field Service Resource Management</li>
+                                                    <li>Vendor Management</li>
+                                                    <li>Management of Installation and Commissioning of
+                                                        Complex Battery Monitoring Systems</li>
+                                                    <li>Safety and Risk Management</li>
+                                                    <li>Customer Experience Management</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col">
                                 <div class="accordion" id="accordionExample">
@@ -157,7 +169,7 @@
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                 aria-expanded="false" aria-controls="collapseFour"> <i
                                                     class="far fa-check-circle me-2"></i>
-                                                    HealthCare
+                                                HealthCare
                                             </button>
                                         </h2>
                                         <div id="collapseFour" class="accordion-collapse collapse"
@@ -181,19 +193,19 @@
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                                 aria-expanded="false" aria-controls="collapseFive"> <i
                                                     class="far fa-check-circle me-2"></i>
-                                                    Infrastructure
+                                                Infrastructure
                                             </button>
                                         </h2>
                                         <div id="collapseFive" class="accordion-collapse collapse"
                                             aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                             <div class="accordion-body font-regular">
                                                 <ul>
-                                                   <li>Property Management</li>
-                                                   <li>Customer Relationship Management</li>
-                                                   <li>Supply Chain Management</li>
-                                                   <li>Procurement Management</li>
-                                                   <li>Environmental Waste Management</li>
-                                                   <li>Contractor Bid Management</li>
+                                                    <li>Property Management</li>
+                                                    <li>Customer Relationship Management</li>
+                                                    <li>Supply Chain Management</li>
+                                                    <li>Procurement Management</li>
+                                                    <li>Environmental Waste Management</li>
+                                                    <li>Contractor Bid Management</li>
                                                 </ul>
                                             </div>
                                         </div>
