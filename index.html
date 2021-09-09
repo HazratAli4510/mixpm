@@ -20,18 +20,44 @@
 </head>
 
 <body>
-    <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom border-dark mb-4 sticky-top bg-white">
         <div class="container">
-            <div class=" d-flex justify-content-center justify-content-md-start align-items-center my-2">
-                <h2 class="logo display-4 p-3 rounded-3 my-lg-5">MIKsPM</h2>
+            <a class="navbar-brand" href="index.html">
+                <div class=" d-flex justify-content-center justify-content-md-start align-items-center">
+                    <h2 class="logo display-5 rounded-3 text-black">MIKsPM</h2>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="ms-3 nav-item border-bottom border-dark">
+                        <a class="text-black text-uppercase nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="ms-3 nav-item">
+                        <a class="text-black text-uppercase nav-link" href="https://mikspm.co/miks-project-management/">Service</a>
+                    </li>
+                    <li class="ms-3 nav-item">
+                        <a class="text-black text-uppercase nav-link" href="https://mikspm.co/miks-project-management/">Contact</a>
+                    </li>
+                    <li class="ms-3 nav-item">
+                        <a class="text-black text-uppercase nav-link" href="#about-video">About</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
+
     <div class="container mt-4 mt-lg-0">
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col col-lg-4 d-flex flex-column align-items-center d-lg-block mb-3 mb-lg-0">
                 <div class="greetings">
-                    <h1 class="font-700 display-5 secondary-font"> MIKs Project Management</h1>
+                    <h1 class="font-700 display-5 secondary-font">MIKs Project Management</h1>
                     <p class="fw-bold mixpm-text-gray text-lg-start text-center">433 Plaza Real, Suite 275, Boca Raton,
                         FL 33432</p>
                     <h1 class="fw-bold mixpm-text-primary text-center text-lg-start">(561) 757-1126</h1>
@@ -61,12 +87,12 @@
                                 <div class="accordion" id="accordionExample2">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne2">
-                                            <button class="accordion-button shadow-none font-regular font-600 mixpm-text-gray" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne2" aria-expanded="true"
-                                                aria-controls="collapseOne2">
-                                                <i
-                                                    class="far fa-check-circle me-2"></i>
-                                                    Engineering 
+                                            <button
+                                                class="accordion-button shadow-none font-regular font-600 mixpm-text-gray"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                                                aria-expanded="true" aria-controls="collapseOne2">
+                                                <i class="far fa-check-circle me-2"></i>
+                                                Engineering
                                             </button>
                                         </h2>
                                         <div id="collapseOne2" class="accordion-collapse collapse show"
@@ -213,9 +239,9 @@
                                 </div>
                             </div>
                         </div>
-                        <button
-                            class="d-block w-100 btn mixpm-bg-primary text-white fw-bold p-3 mt-4 rounded-0 shadow-none repair-button">Start
-                            a service request</button>
+                        <a class="text-decoration-none" href="https://mikspm.co/miks-project-management/"><button
+                                class="d-block w-100 btn mixpm-bg-primary text-white fw-bold p-3 mt-4 rounded-0 shadow-none repair-button">Start
+                                a service request</button></a>
                     </div>
                 </div>
             </div>
@@ -223,24 +249,72 @@
     </div>
 
     <!-- Badge Section -->
-    <div class="container-fluid my-5 d-flex align-items-center justify-content-center" id="badge">
+    <section class="container-fluid my-5 d-flex align-items-center justify-content-center" id="badge">
         <div class="container p-3">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col">
-                    <img id="stripe" class="img-fluid" src="media/pictures/stripe.png" alt="">
+                    <img id="stripe" class="img-fluid" src="media/pictures/1.png" alt="">
                 </div>
                 <div class="col">
-                    <img id="stripe" class="img-fluid" src="media/pictures/northon.png" alt="">
+                    <img id="stripe" class="img-fluid" src="media/pictures/2.png" alt="">
                 </div>
                 <div class="col">
-                    <img class="img-fluid" src="media/pictures/paypal.webp" alt="">
+                    <img class="img-fluid" src="media/pictures/3.png" alt="">
                 </div>
                 <div class="col">
-                    <img id="positive-ssl" class="img-fluid" src="media/pictures/ssl.png" alt="">
+                    <img id="positive-ssl" class="img-fluid" src="media/pictures/4.png" alt="">
+                </div>
+                <div class="col">
+                    <img id="positive-ssl" class="img-fluid" src="media/pictures/5.png" alt="">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+    <!-- About video section -->
+    <section id="about-video">
+        <div class="container">
+            <div class="row my-3 row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <img data-bs-toggle="modal" data-bs-target="#exampleModal" id="about-video-placeholder"
+                        class="img-fluid" src="media/pictures/video-placeholder.png" alt="">
+                </div>
+                <div class="col mt-3 mt-md-0">
+                    <div class="title">
+                        <h3 class="secondary-font display-5">About us</h3>
+                        <span class="d-block" id="about-bar"></span>
+                    </div>
+                    <p class="pt-3 fs-5 text-capitalize font-regular">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Illo eveniet nesciunt
+                        omnis cupiditate itaque possimus repellendus quasi consequatur reprehenderit, sit tempore
+                        facilis? Ipsam molestiae nobis quo dolores amet perferendis distinctio. Lorem ipsum dolor, sit
+                        amet consectetur adipisicing elit. Tempora a, deserunt dicta rerum exercitationem unde
+                        asperiores autem placeat voluptates iusto voluptatum optio pariatur. Perspiciatis, quaerat
+                        magnam inventore soluta ea dolores!</p>
+                </div>
+
+                <!-- video modal -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <iframe src="https://www.youtube-nocookie.com/embed/LMlCN6_vUvs"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">

@@ -62,11 +62,11 @@
  Header Styles
  --------------- */
 
-header .logo{
+nav .logo{
     font-family: 'Alumni Sans';
     line-height:.8;
 }
-header .logo::after{
+nav .logo::after{
     content: 'by MIKsVIRTUAL';
     display: block;
     font-size: 1.2rem;
@@ -117,4 +117,16 @@ iframe {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+}
+
+
+/* About video section */
+
+#about-bar{
+    width: 100px;
+    height: 3px;
+    background-color: var(--primary);
+}
+#about-video-placeholder{
+    cursor: pointer;
 }
